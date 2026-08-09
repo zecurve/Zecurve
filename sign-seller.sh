@@ -2,7 +2,7 @@
 set -e
 
 UNSIGNED_HEX=$(cat unsigned-tx.hex)
-SELLER_WIF=$(cat ~/secrets/seller.wif | tr -d '[:space:]')
+SELLER_WIF=$(cat seller.wif | tr -d '[:space:]')
 SELLER_SCRIPTPUBKEY="76a914d6c1b74d45429e6b14f00af3143fb49d5e53365188ac"
 BUYER_SCRIPTPUBKEY="76a9149c7da21625638f55b78b0e2c088e2a3098d5fd4188ac"
 
